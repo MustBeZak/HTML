@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buttons</title>
+<Link rel="stylesheet" href="Styles/buttons.css">
+</head>
+<body>
+  <a href=" https://supersimple.dev/exercises/buttons" target="_blank">Back To Buttons</a>
+    <button onclick="showAlert()" class="Subscribe">SUBSCRIBE</button>
+    <script>
+      function showAlert() {
+        alert("Hello");
+      }
+
+      function changeText() {
+        document.getElementById("Text").innerText = "Hellooooooo";
+      }
+
+    </script>
+    <button onclick="changeText()" class="Join">Join</button>
+    <button class="Tweet">Tweet</button>
+    <button onclick="window.location.href='youtube.com'"> Youtube </button>
+
+    <p id="Text">
+      Hello this is my paragraph thank you.
+    </p>
+</body>
+</html>
